@@ -1,0 +1,79 @@
+.sgin .banner {
+  background-color: rgba(210, 255, 239, 0.6);
+}
+
+.sgin .banner .form-floating input {
+  height: 60px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.sgin .banner .row {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sgin .banner .row h3 {
+  font-family: Noto Sans TC, sans-serif;
+  font-size: 3rem;
+}
+
+.sgin .banner .row h3::first-letter {
+  font-size: 5rem;
+}
+
+.sgin .banner .row button {
+  width: auto;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #d2ffef;
+  -webkit-box-shadow: 1px 1px 1px #fff;
+  box-shadow: 1px 1px 1px #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.sgin .banner .row button:hover {
+  background-color: #4e6853;
+  color: #fff;
+}
+
+.sgin .banner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  color: #fff;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.sgin .banner ul li {
+  margin: 0 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.sgin .banner ul li:hover {
+  cursor: pointer;
+  color: #d2ffef;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .sgin .banner .row {
+    height: 65vh;
+  }
+  .sgin .banner .row ul {
+    padding: 0;
+  }
+  .sgin .banner .row .col-6 h2 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+  .sgin .banner .row .col-6 h2::first-letter {
+    font-size: 6rem;
+  }
+}
